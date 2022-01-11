@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/af06884ba4.js" crossorigin="anonymous"></script>
+    <style>
+        nav{
+            display:flex;
+            justify-content: space-between;
+            
+        }
+        .container{
+            display:flex;
+            justify-content: center;
+        }
+        .loging-form{
+            display:flex;
+            flex-direction: column;
+        }
+        .loging-form input, button{
+            font-size: 1.5em;
+            margin-top: 15px;
+            border: 1px solid lightgrey;
+            padding-left: 10px;
+        }
+        .loging-form button{
+            background-color:orange;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            font-weight: 600;
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 2em;
+            color: black;
+            margin: 10px
+            
+            ;
+        }
+    </style>
+<body>
+    <header class="header">
+            <nav>
+                <span>
+                <a href="">Home</a>
+                <a href="">Sub</a>
+                <a href="">Dub</a>
+                <a href="">More</a>
+                </span>
+
+                <span>
+                    <a href=""><i class="fas fa-user-circle"></i></a>
+                    <a href=""><i class="fas fa-sign-out-alt"></i></a>
+                </span>
+            </nav>
+    </header>
+        
+    </section>
+    <section class="container">
+        <form action="" class="loging-form">
+            <h2>Loging Form</h2>
+            <input type="email" name="email" id="" placeholder="inter your email" required>
+            <input type="password" name="password" id="" placeholder="inter your password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+</body>
+</html>
